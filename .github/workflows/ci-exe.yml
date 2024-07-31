@@ -6,7 +6,9 @@ on:
   workflow_dispatch:
 
 jobs: 
-  steps:
+  name: exercise
+  runs-on: ubuntu-latest
+  step:
     - name: checkout repo
       uses: actions/checkout@v4
     - name: set up python
